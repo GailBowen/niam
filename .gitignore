@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/vueniam.client/obj/Debug
+/VueNiam.Server/bin/Debug/net6.0
+/VueNiam.Server/obj/Debug/net6.0
+/VueNiam.Server/obj
+/.vs/VueNiam/v17
