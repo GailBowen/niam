@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vueniam.client", "vueniam.client\vueniam.client.esproj", "{D941113F-6E0B-03ED-334F-85044F2EBB73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueNiam.Server", "VueNiam.Server\VueNiam.Server.csproj", "{92FA3B39-417A-4F4B-889E-2BC4818F9062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D941113F-6E0B-03ED-334F-85044F2EBB73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D941113F-6E0B-03ED-334F-85044F2EBB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D941113F-6E0B-03ED-334F-85044F2EBB73}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D941113F-6E0B-03ED-334F-85044F2EBB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D941113F-6E0B-03ED-334F-85044F2EBB73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D941113F-6E0B-03ED-334F-85044F2EBB73}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{92FA3B39-417A-4F4B-889E-2BC4818F9062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FA3B39-417A-4F4B-889E-2BC4818F9062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FA3B39-417A-4F4B-889E-2BC4818F9062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FA3B39-417A-4F4B-889E-2BC4818F9062}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {650C6226-5669-4AA7-843C-B5FE180F8D97}
+	EndGlobalSection
+EndGlobal
