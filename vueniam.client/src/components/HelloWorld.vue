@@ -92,15 +92,17 @@
 
   nav ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Prevents wrapping */
     list-style: none;
     padding: 0;
     margin: 10px 0 0 0;
     background: #00a1e0;
     border-radius: 4px;
+    overflow-x: auto; /* Optional: allows horizontal scroll if needed */
   }
 
     nav ul li {
+      white-space: nowrap; /* Prevents text from wrapping inside items */
       padding: 10px 18px;
       color: #fff;
       cursor: pointer;
